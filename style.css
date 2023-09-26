@@ -1,0 +1,67 @@
+*{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+html {background-color: rgb(108, 106, 127)}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .container h1{
+        font-size: xx-large;
+        text-align: center;
+        color: white;
+    
+    }
+
+    .ljus{
+        background-color: rgb(255, 255, 255);
+    }
+    .boxgreen,
+    .boxred,
+    .boxyellow{
+        margin: 10px;    
+         width: 150px;
+        height: 150px;
+    }
+
+    .minigreen,
+    .minired,
+    .miniyellow{
+        background-color: aliceblue;
+        opacity: 50%;
+    }
+    .boxred{
+        border: 15px solid rgb(134, 23, 23);
+        background-color: rgb(250, 68, 68);
+    }
+    .minired{
+        margin-top: 50%;
+        height: 50%;
+    }
+    .boxyellow{
+        border: 15px solid rgb(247, 224, 18);
+        background-color: rgb(255, 244, 125);
+    }
+
+    .miniyellow{
+        margin-top: 50%;
+        height: 50%;
+        margin-left: 50%;
+    }
+
+    .boxgreen{
+        border: 15px solid green;
+        background-color: rgb(106, 245, 93);
+    }
+
+    .minigreen{
+        margin-top: 50%;
+        height: 50%;
+        margin-right: 50%;
+    }
